@@ -1,2 +1,4 @@
-# NET-training-01-07
-Tasks from .NET Basics External: Module 01, Part 07
+## NET-01. Introduction and .NET Basic
+### Part 06. Basic Coding in C# 
+
+Description of tasks
