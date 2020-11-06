@@ -16,7 +16,7 @@ NUnit unit tests are provided.
 
 #### Task 03
 "Balanced array" is an array of size n, which has an element at position i, 
-so that sum of elements at positions 0, 1, ..., i - 1  and sum of elements at positions i + 1, i + 2, ..., n - 1 are equal.  
+so that sum of elements at positions 0, 1, ..., i-1  and sum of elements at positions i+1, i+2, ..., n-1 are equal.  
 FindElementOfBalancedArray algorithm searches for an element in the input array that makes the array "balanced". 
 
 Since array contains real numbers, decimal type was used to ensure precision of calculation. 
