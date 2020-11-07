@@ -15,10 +15,16 @@ Resulting array is passed to FindMax method repeatedly until single element is l
 NUnit unit tests are provided.
 
 #### Task 03
-"Balanced array" is an array of size n, which has an element at position i, 
-so that sum of elements at positions 0, 1, ..., i-1  and sum of elements at positions i+1, i+2, ..., n-1 are equal.  
-FindElementOfBalancedArray algorithm searches for an element in the input array that makes the array "balanced". 
+"Balanced array" is an array of size n, which has an element at position i, so that sum of elements at positions 0, 1, ..., i-1  and sum of elements at positions i+1, i+2, ..., n-1 are equal. FindElementOfBalancedArray algorithm searches for an element in the input array that makes the array "balanced". 
 
 Since array contains real numbers, decimal type was used to ensure precision of calculation. 
 Each element of the array is checked for the condition, first matching element's index is returned.
-If no such element is found, null is returned.
+If no such element is found, null is returned. NUnit unit tests are provided.
+
+#### Task 04
+ConcatenateStringsWithoutRepeat algorithm concatenates one string to another and removes all repetittions of the characters.
+
+Firstly, an array of characters is created of size equal to total length of given two strings. 
+Then, it is filled with one instance of each character that appears in the strings. 
+To convert the array to string and remove all null elements StringBuilder type is used.
+NUnit unit tests are provided.
