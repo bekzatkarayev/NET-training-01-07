@@ -30,12 +30,12 @@ To convert the array to string and remove all null elements StringBuilder type i
 NUnit unit tests are provided.
 
 #### Task 05
-<div style="text-align: justify">FindNextBiggerInteger method searches for nearest integer that is bigger than and contains exact same digits as the given integer.
-It returns such integer, if found, and also time, that was needed to do the search.  
+<p style="text-align: justify">FindNextBiggerInteger method searches for nearest integer that is bigger than and contains exact same digits as the given integer.
+It returns such integer, if found, and also time, that was needed to do the search.</p>
 
-First, an array containing digits of the input number is created, digits are placed in the same position as they are located in the number.
+<p style="text-align: justify">First, an array containing digits of the input number is created, digits are placed in the same position as they are located in the number.
 Closest needed number is obtained by swapping two consecutive digits that stand in ascending order. 
 After that all other elements starting from the swapping position till the end of the array should be sorted in ascending order.
 If all the digits in the number are in descending order initially, then no such number can be found.
 Execution time of the method is calculated by using instance of StopWatch class.
-NUnit unit tests are provided.</div>
+NUnit unit tests are provided.</p>
