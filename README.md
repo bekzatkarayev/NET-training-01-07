@@ -1,5 +1,5 @@
 ## NET-01. Introduction and .NET Basics
-### Part 06. Basic Coding in C# 
+### Part 07. Basic Coding in C# 
 
 #### Task 01
 <p align="justify">InsertNumber algorithm inserts bits of one 4 byte signed integer into another. 
